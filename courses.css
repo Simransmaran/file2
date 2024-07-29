@@ -534,6 +534,7 @@ textarea{
     width: 102%;
     border: 1px solid white;
     background-color: white;
+  
 }
 .student-cards{
     display: grid;
@@ -563,7 +564,7 @@ textarea{
     padding: 3rem;
     }
     .student-reviews{
-        margin-left:0;
+        margin-left:0rem;
         height: 950px;
     width: 100%;
     }
@@ -611,21 +612,34 @@ textarea{
     font-size: 0.85rem;
     line-height: 4;
 }
-.student-courses{margin:6rem 12rem;
+.student-courses{
+   
     width:60rem;
-    height: 25rem;
+    height:29rem;
     background-size: 100% 100%;
-    box-shadow: 20px 20px 10px gray;
+    box-shadow: 20px 20px 20px gray;
     border: 3px solid white;
     animation: slider 40s linear  infinite;
     /* overflow: hidden; */
+  
+}
+.student-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 29rem;
+    width:100%;
+    gap: 1rem;
+    background-color: white;
+
 }
 .student-courses-head{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin-top: 1rem;
     color:gray
     
 }
@@ -660,5 +674,6 @@ textarea{
         width: 30rem;
         height: 15rem;
         margin: 2rem;
+        margin-left: 4rem;
     }
 }
